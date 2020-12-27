@@ -1,0 +1,14 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+# SPRING
+spring:
+  application:
+    name: app-service
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST}:${MYSQL_PORT:3306}/${MYSQL_DB}?useUnicode=true&characterEncoding=UTF-8&useSSL=false&useTimezone=true&serverTimezone=GMT%2B8
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+
+# 写到package就可以了
+logging.level.com.springboot.template.infra.client: DEBUG

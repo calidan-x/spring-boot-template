@@ -1,0 +1,5 @@
+# MySQL
+MYSQL_HOST: localhost
+MYSQL_DB: testdb
+MYSQL_USERNAME: root
+MYSQL_PASSWORD: root
