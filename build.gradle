@@ -27,8 +27,8 @@ checkstyle {
 
 dependencies {
     // Spring Boot
-    implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    // implementation 'org.springframework.boot:spring-boot-starter-security'
 
     // Database
     runtimeOnly 'mysql:mysql-connector-java'
@@ -41,9 +41,9 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
 
     // AWS
-//	implementation 'org.springframework.cloud:spring-cloud-starter-aws'
-//	implementation 'org.springframework.cloud:spring-cloud-aws-autoconfigure'
-//	implementation 'org.springframework.cloud:spring-cloud-starter-aws-messaging'
+    //	implementation 'org.springframework.cloud:spring-cloud-starter-aws'
+    //	implementation 'org.springframework.cloud:spring-cloud-aws-autoconfigure'
+    //	implementation 'org.springframework.cloud:spring-cloud-starter-aws-messaging'
 
     // Feign
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'

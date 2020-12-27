@@ -12,3 +12,5 @@ spring:
 
 # 写到package就可以了
 logging.level.com.springboot.template.infra.client: DEBUG
+feign.client.config.default.loggerLevel: full
+
